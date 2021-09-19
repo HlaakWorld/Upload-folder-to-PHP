@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folder Uploader</title>
+
+    <link rel="stylesheet" href="font/style/css/all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body class="bg-primary min-vh-100 d-flex justify-content-center align-items-center">
+
+    <div class="container bg-white h-350 w-350 ">
+
+        <div class="header p-3 border-bottom">
+            <span class="fw-bold poppins text-uppercase">Upload Folders</span>
+            <span class="btn btn-primary btn-sm float-end upload-button">Upload <i
+                    class="fas fa-cloud"></i></span>
+        </div>
+
+        <div class="content text-center mt-5">
+            <input type="file" hidden name="file" id="file" webkitdirectory>
+            <p class="text-secondary text-capitalize poppins">Choose a folder to upload</p>
+            <button class="btn btn-primary text-capitalize browse-button">Browse a folder</button>
+        </div>
+
+        <div class="progress mt-5 mx-5">
+            <div class="progress-bar poppins bg-primary progress-bar-striped progress-bar-animated" role="progressbar"
+                style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+        </div>
+    </div>
+</body>
+
+<script src="jquery/jquery.min.js"></script>
+<script src="script/script.js"></script>
+
+</html>

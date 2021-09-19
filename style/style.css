@@ -1,0 +1,16 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Regular.otf);
+}
+
+.w-350 {
+    width: 350px;
+}
+
+.h-350 {
+    height: 350px;
+}
+
+.poppins {
+    font-family: poppins;
+}
